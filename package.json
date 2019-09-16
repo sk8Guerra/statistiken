@@ -1,0 +1,17 @@
+{
+    "name": "statistiken",
+    "version": "1.0.0",
+    "description": "Resolve all kind of statistical operations.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "statistics",
+        "numbers",
+        "operations",
+        "functions"
+    ],
+    "author": "Coco Guerra",
+    "license": "ISC"
+}
