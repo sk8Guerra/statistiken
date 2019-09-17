@@ -4,7 +4,7 @@
     "description": "Resolve all kind of statistical operations.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "keywords": [
         "statistics",
@@ -13,5 +13,8 @@
         "functions"
     ],
     "author": "Coco Guerra",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^24.9.0"
+    }
 }
