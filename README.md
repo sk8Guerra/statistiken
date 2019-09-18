@@ -8,6 +8,20 @@
 
 A JavaScript statistics library for, solving all kind of statistics operations. 📈
 
+## 📦 Install
+
+```bash
+npm install -s statistiken
+```
+
+## 🛠 Usage
+
+```js
+const statistiken = require('statistiken');
+
+statistiken.stddev([1, 6, 9, 7, 3, 54, 74]);
+```
+
 
 
 
