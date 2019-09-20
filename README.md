@@ -1,4 +1,4 @@
-# Statisticken
+# Statistiken
 
 [![npm(scoped)](https://img.shields.io/badge/npm%20-v1.0.0-red)](https://www.npmjs.com/package/statistiken)
 [![issues(scoped)](https://img.shields.io/github/issues/sk8Guerra/statistiken)](https://github.com/sk8Guerra/statistiken/issues)
