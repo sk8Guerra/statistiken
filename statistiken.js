@@ -1,7 +1,8 @@
 const map = require('./src/tools/map');
+const orderAsc = require('./src/tools/orderAsc')
 
 module.exports.orderAsc = array => {
-    return array.sort((a, b) => a - b);
+    return orderAsc(array);
 }
 
 module.exports.orderDesc = array => {
