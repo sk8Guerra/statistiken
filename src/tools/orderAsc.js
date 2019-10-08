@@ -1,23 +1,21 @@
-function asc(origArray) {
-	if (origArray.length <= 1) { 
-		return origArray;
-	} else {
+function asc(array) {
+	if (array.length <= 1) { 
+		return array;
+	} 
+	let left = [];
+	let right = [];
+	let newArray = [];
+	let pivot = array.pop();
+	let length = array.length;
 
-		var left = [];
-		var right = [];
-		var newArray = [];
-		var pivot = origArray.pop();
-		var length = origArray.length;
-
-		for (var i = 0; i < length; i++) {
-			if (origArray[i] <= pivot) {
-				left.push(origArray[i]);
-			} else {
-				right.push(origArray[i]);
-			}
+	for (let i = 0; i < length; i++) {
+		if (array[i] <= pivot) {
+			left.push(array[i]);
+		} else {
+			right.push(array[i]);
 		}
-
-		return newArray.concat(asc(left), pivot, asc(right));
 	}
+
+	return newArray.concat(asc(left), pivot, asc(right));
 };
 module.exports = asc;
