@@ -35,6 +35,6 @@ function quickSort(items, left, right) {
         }
     }
     return items;
-}
+};
 
-module.exports = {quickSort};
+module.exports.quickSort = quickSort;
