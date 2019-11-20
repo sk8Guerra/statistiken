@@ -13,13 +13,17 @@ A JavaScript statistics library for, solving all kind of statistics operations. 
 ```bash
 npm install -s statistiken
 ```
+or
+```bash
+yarn add statistiken
+```
 
 ## 🛠 Usage
 
 ```js
 const statistiken = require('statistiken');
 
-statistiken.stddev([1, 6, 9, 7, 3, 54, 74]);
+statistiken.mean([53, 16, 91, 77, 13, 10, 100]); // -> 51.42
 ```
 
 

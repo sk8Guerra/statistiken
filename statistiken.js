@@ -1,22 +1,15 @@
-const mean = require('./src/arithmetic/mean');
-const median = require('./src/arithmetic/median');
-const mode = require('./src/arithmetic/mode');
-
 var _orderAsc = require('./src/tools/order/asc');
 
+const mean = require('./src/arithmetic/mean');
 var _mean = function (array) {
     return mean(array, 0);
 }
 
-var _median = function (array) {
-    return median(array);
-}
+var _median = require('./src/arithmetic/median');
 
-var _mode = function (array) {
-    return mode(array);
-}
+var _mode = require('./src/arithmetic/mode');
 
-module.exports {
+module.exports = {
     orderAsc: _orderAsc,
     mean: _mean,
     median: _median,
