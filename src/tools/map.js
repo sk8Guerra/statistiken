@@ -1,5 +1,5 @@
 function map(array, transform) {
-    let mapped = [], x;
+    var mapped = [], x;
     for (x = 0; x < array.length; x++) {
         mapped.push(transform(array[x]));
     }
