@@ -15,8 +15,16 @@ function mode(array) {
                 modes.push(Number(i));
             }
         }
- 
-    return modes;
+    
+    return withDescription(modes);
+}
+
+function withDescription(modes) {
+    var lnth = modes.length;
+    if (lnth === 1) return { modes };
+    if (lnth === 2) return { 'description': 'bimodal', modes };
+    if (lnth === 3) return { 'description': 'trimodal', modes };
+    if (lnth > 3) return { 'description': 'multimodal', modes };
 }
 
 module.exports = mode;
