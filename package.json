@@ -4,7 +4,8 @@
     "description": "Resolve all kind of statistical operations.",
     "main": "./statistiken.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "publish": "git push --tags && npm publish"
     },
     "sideEffects": false,
     "keywords": [

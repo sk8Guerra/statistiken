@@ -2,7 +2,7 @@
 
 A JavaScript library for solving all kind of statistics operations. 📈
 
-[![npm(scoped)](https://img.shields.io/badge/npm%20-v1.0.0-red)](https://www.npmjs.com/package/statistiken)
+[![npm(scoped)](https://img.shields.io/badge/npm-v1.3.0-red)](https://www.npmjs.com/package/statistiken)
 [![issues(scoped)](https://img.shields.io/github/issues/sk8Guerra/statistiken)](https://github.com/sk8Guerra/statistiken/issues)
 [![forks(scoped)](https://img.shields.io/github/forks/sk8Guerra/statistiken)](https://github.com/sk8Guerra/statistiken)
 [![stars(scoped)](https://img.shields.io/github/stars/sk8Guerra/statistiken)](https://github.com/sk8Guerra/statistiken)
