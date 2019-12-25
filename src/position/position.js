@@ -1,9 +1,7 @@
-const asc = require('../tools/order/asc');
-const isFloat = require('../tools/types');
-const mean =  require('../arithmetic/mean');
+const decile = require('./decile');
+const percentile = require('./percentile');
 
 class PositionMeasurements {
-    
     constructor (numbers) {
         this.numbers = numbers || []; 
     }
@@ -13,24 +11,11 @@ class PositionMeasurements {
     }
 
     decile(decileNumber) {
-        return verify(calculate(decileNumber, asc(this.numbers).length, 10), this.numbers);
+        return decile(decileNumber, this.numbers);
     }
 
     percentile(percentileNumber) {
-        return verify(calculate(percentileNumber, asc(this.numbers).length, 100), this.numbers);
-    }
-}
-
-
-function calculate(positionNumber, amountOfNumbers, position) {
-    return positionNumber * amountOfNumbers / position;
-}
-
-function verify(position, numbers) {
-    if (isFloat(position)) {
-        return numbers[Math.round(position) - 1];
-    } else {
-        return numbers[decile];
+        return percentile(percentileNumber, this.numbers);
     }
 }
 

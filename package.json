@@ -2,10 +2,11 @@
     "name": "statistiken",
     "version": "1.2.1",
     "description": "Resolve all kind of statistical operations.",
-    "main": "index.js",
+    "main": "./statistiken.js",
     "scripts": {
         "test": "jest"
     },
+    "sideEffects": false,
     "keywords": [
         "statistics",
         "numbers",
@@ -14,7 +15,10 @@
     ],
     "author": "Coco Guerra",
     "license": "MIT",
-    "repository": "https://github.com/sk8Guerra/statistiken",
+    "repository": {
+        "type":"git",
+        "url": "https://github.com/sk8Guerra/statistiken"
+    },
     "devDependencies": {
         "jest": "^24.9.0"
     }
