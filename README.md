@@ -95,7 +95,7 @@ statistiken.mode([3, 5, 4, 4, 1, 1, 1, 2]); // {"modes": [1]}
 new Statistiken([3, 4, 5, 6, 7, 7]).arithmetic().mode(); // -> {"modes": [7]}
 ```
 
-**[⬆ back to features](#features)**
+**[⬆ back to features](#✨-features)**
 
 ### Dispersion
 
@@ -124,7 +124,7 @@ new Statistiken([3, 4, 5, 6, 7]).dispersion().coevar(); // -> 31.6227766017
 ```
 Note: the result * 100.
 
-**[⬆ back to features](#features)**
+**[⬆ back to features](#✨-features)**
 
 ### Position
 
@@ -148,7 +148,7 @@ new Statistiken([3, 4, 5, 6, 7]).position().percentile(1); // -> 3
 
 The first argument is the number of percentile you want to calculate.
 
-**[⬆ back to features](#features)**
+**[⬆ back to features](#✨-features)**
 
 ### Other
 
@@ -158,7 +158,7 @@ The first argument is the number of percentile you want to calculate.
 statistiken.orderAsc([5, 3, 2, 8, 10]) // -> [2, 3, 5, 8, 10]
 ```
 
-**[⬆ back to features](#features)**
+**[⬆ back to features](#✨-features)**
 
 
 
