@@ -5,7 +5,8 @@
     "main": "./statistiken.js",
     "scripts": {
         "test": "jest",
-        "publish": "git push --tags && npm publish"
+        "publish": "git push --tags && npm publish",
+        "postinstall": "node postinstall.js"
     },
     "sideEffects": false,
     "keywords": [
