@@ -1,7 +1,7 @@
 const decile = require('./decile');
 const percentile = require('./percentile');
 
-class PositionMeasurements {
+class Position {
     constructor (numbers) {
         this.numbers = numbers || []; 
     }
@@ -19,4 +19,4 @@ class PositionMeasurements {
     }
 }
 
-module.exports = PositionMeasurements;
+module.exports = Position;
