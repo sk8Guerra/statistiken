@@ -1,4 +1,4 @@
-function reducer (acc, item) { 
+function reducer (acc, item) {
     return acc + item
 }
 
