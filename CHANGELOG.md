@@ -8,7 +8,7 @@
 
 [commit](https://github.com/sk8Guerra/statistiken/commit/00d5de3966d47302087343f9b47a41341a75e975)
 
-## 1.3.1 - 1.3.4 (Jan 13, 2020)
+## 1.3.1 - 1.3.5 (Jan 13, 2020)
 
 🛠 Features:
 
