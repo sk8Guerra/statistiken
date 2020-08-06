@@ -1,6 +1,6 @@
 {
     "name": "statistiken",
-    "version": "1.3.7",
+    "version": "1.4.7",
     "description": "Resolve all kind of statistical operations.",
     "main": "./statistiken.js",
     "scripts": {

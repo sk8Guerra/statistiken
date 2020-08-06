@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.4.7 (Aug 5, 2020)
+
+🛠 Features:
+
+  - Average Deviation (avgdev).
+
+[commit](https://github.com/sk8Guerra/statistiken/commit/fb4e8ceb7d655219a65f364379b631d6092469fe)
+
 ## 1.3.7 (Aug 5, 2020)
 
 🐞 Fix:
