@@ -38,10 +38,31 @@ function roundDown(number) {
   return Math.floor(number)
 }
 
+function square(value) {
+  return Math.pow(value, 2);
+}
+
+function length(array) {
+  return array.length;
+}
+
+function absolute(value) {
+  return Math.abs(value);
+}
+
+function divide(...values) {
+  const [dividend, divider] = values;
+  return dividend / divider;
+}
+
 module.exports = {
   isNumber,
   isOdd,
   isArrayOfNumbers,
   roundUp,
-  roundDown
+  roundDown,
+  square,
+  length,
+  absolute,
+  divide
 }

@@ -1,8 +1,9 @@
 const stddev = require('./stddev');
 const mean = require('../arithmetic/mean');
+const { absolute, divide } = require('../tools');
 
 function coevar(array) {
-    return (stddev(array) / mean(array)) * 100;
+    return divide(stddev(array), absolute(mean(array))) * 100;
 }
 
 module.exports = coevar;
