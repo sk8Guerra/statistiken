@@ -8,6 +8,8 @@ var _mode = require('./src/arithmetic/mode');
 
 var _stddev = require('./src/dispersion/stddev');
 
+var _avgdev = require('./src/dispersion/avgdev');
+
 var _variance = require('./src/dispersion/variance');
 
 var _coevar = require('./src/dispersion/coevar');
@@ -45,6 +47,7 @@ module.exports = {
     median: _median,
     mode: _mode,
     stddev: _stddev,
+    avgdev: _avgdev,
     variance: _variance,
     coevar: _coevar,
     decile: _decile,
