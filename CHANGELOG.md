@@ -7,7 +7,7 @@
   - Coefficient of variation is better calculed (with absolute value).
   - Code improvements.
 
-[commit](https://github.com/sk8Guerra/statistiken/commit/00d5de3966d47302087343f9b47a41341a75e975)
+[commit](https://github.com/sk8Guerra/statistiken/commit/b492c86acc9414ff8f340385e5e0de640e3cd5f2)
 
 ## 1.3.6 (Aug 4, 2020)
 
