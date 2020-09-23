@@ -20,7 +20,7 @@ var _percentile = require('./src/position/percentile');
 
 const Arithmetic = require('./src/arithmetic/Arithmetic');
 const Dispersion = require('./src/dispersion/Dispersion');
-const Position = require('./src/position/Position');
+const Position = require('./src/position/position');
 
 class Statistiken {
     constructor (numbers) {
