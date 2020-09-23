@@ -55,6 +55,11 @@ function divide(...values) {
   return dividend / divider;
 }
 
+function subtract(...values) {
+  const [a, b] = values;
+  return a - b;
+}
+
 module.exports = {
   isNumber,
   isOdd,
@@ -64,5 +69,6 @@ module.exports = {
   square,
   length,
   absolute,
-  divide
+  divide,
+  subtract
 }
