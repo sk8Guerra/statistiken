@@ -4,6 +4,7 @@
   "description": "Resolve all kind of statistical operations.",
   "main": "./statistiken.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "jest",
     "publish": "git push --tags && npm publish",
     "postinstall": "node postinstall.js",
@@ -27,5 +28,10 @@
     "cz-conventional-changelog": "^3.3.0",
     "jest": "^24.9.0",
     "semantic-release": "^17.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
