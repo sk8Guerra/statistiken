@@ -1,27 +1,31 @@
 {
-    "name": "statistiken",
-    "version": "1.4.7",
-    "description": "Resolve all kind of statistical operations.",
-    "main": "./statistiken.js",
-    "scripts": {
-        "test": "jest",
-        "publish": "git push --tags && npm publish",
-        "postinstall": "node postinstall.js"
-    },
-    "sideEffects": false,
-    "keywords": [
-        "statistics",
-        "numbers",
-        "operations",
-        "functions"
-    ],
-    "author": "Coco Guerra",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sk8Guerra/statistiken"
-    },
-    "devDependencies": {
-        "jest": "^24.9.0"
-    }
+  "name": "statistiken",
+  "version": "0.0.0-development",
+  "description": "Resolve all kind of statistical operations.",
+  "main": "./statistiken.js",
+  "scripts": {
+    "test": "jest",
+    "publish": "git push --tags && npm publish",
+    "postinstall": "node postinstall.js",
+    "semantic-release": "semantic-release"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "statistics",
+    "numbers",
+    "operations",
+    "functions"
+  ],
+  "author": "Coco Guerra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sk8Guerra/statistiken"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "^24.9.0",
+    "semantic-release": "^17.1.2"
+  }
 }

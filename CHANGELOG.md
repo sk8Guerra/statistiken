@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.4.8 (Sep 23, 2020)
+
+🐞 Fix:
+
+  - Position measures import fixed.
+
+[commit](https://github.com/sk8Guerra/statistiken/commit/c054f6727438ba43fded6e4f8cfb3136883b825a)
+
 ## 1.4.7 (Aug 5, 2020)
 
 🛠 Features:
